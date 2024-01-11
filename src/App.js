@@ -14,15 +14,25 @@ export default function App() {
             rel="noreferrer"
           >
             Elena Poddighe
-          </a>{" "}
-          and is{" "}
+          </a>
+          , it is{" "}
           <a
             href="https://github.com/elenapoddighe/my-awesome-weather-react-app"
             target="_blank"
             rel="noreferrer"
           >
             open-sourced
-          </a>
+          </a>{" "}
+          on GitHub and{" "}
+          <a
+            href="https://elenas-awesome-weather-react-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            hosted
+          </a>{" "}
+          on Netlify.
         </footer>
       </div>
     </div>
