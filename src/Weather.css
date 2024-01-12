@@ -1,5 +1,6 @@
 .Weather {
-  border: 1px solid #dadde1;
+  background-color: white;
+  border: 1px solid black;
   border-radius: 4px;
   color: rgb(135, 135, 135);
   font-family: monospace;
@@ -10,22 +11,32 @@
   margin-bottom: 20px;
 }
 
+.Weather .form-control {
+  background-color: whitesmoke;
+}
+
+.Weather .btn-primary {
+  background-color: rgb(50, 163, 228);
+}
+
 .Weather h1 {
-  color: #878787;
+  color: black;
   font-size: 24px;
   font-weight: 100;
   margin: 20px 0 0 0;
 }
 
 .Weather ul {
+  color: black;
   margin: 0;
+  opacity: 0.6;
   padding: 0;
 }
 
 .Weather li {
   font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 1.5;
   list-style: none;
 }
 

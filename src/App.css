@@ -1,13 +1,20 @@
+body {
+  background-color: rgb(74, 147, 189);
+}
+
 .App {
   margin: 30px auto;
   max-width: 600px;
 }
 
 .App footer {
+  color: black;
   font-size: 11px;
   margin: 10px 0;
+  text-align: center;
 }
 
 .App a {
+  color: black;
   text-decoration: none;
 }

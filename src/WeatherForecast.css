@@ -2,11 +2,24 @@
   text-align: center;
 }
 
+.WeatherForecast-day {
+  color: black;
+  font-weight: bolder;
+}
+
 .WeatherForecast canvas {
-  margin: 2px 0 0 0;
+  margin: 5px 0;
+}
+
+.WeatherForecast-temperatures {
+  color: black;
+}
+
+.WeatherForecast-temperature-max {
+  margin-right: 3px;
 }
 
 .WeatherForecast-temperature-min {
-  margin-left: 5px;
+  margin-left: 3px;
   opacity: 0.6;
 }
